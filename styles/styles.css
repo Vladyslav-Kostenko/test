@@ -1,0 +1,66 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+ul,
+p {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+.tel-list {
+    display: flex;
+    align-items: center;
+    color: #757575;
+    cursor: pointer;
+}
+
+.tel-list:hover {
+    color: #2196F3;
+}
+
+.button {
+    display: block;
+    padding: 0;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.size44 {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: #757575;
+}
+
+.size44:hover {
+    background-color: #2196F3;
+    color: #fff;
+}
+
+.smartphone {
+    width: 10px;
+    height: 16px;
+    fill: currentColor;
+    margin-right: 11px;
+}
+
+.twitter {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+}
+
+.feature-box {
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+}
+
+.antenna {
+    width: 70px;
+    height: 70px;
+}
